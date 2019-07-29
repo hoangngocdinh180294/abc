@@ -8,10 +8,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                         <li>
-                            <router-link :to="{name:'list'}" class="nav-link">Product</router-link>
+                            <router-link :to="{name:'listproduct'}" class="nav-link">Product</router-link>
                         </li>
                         <li>
-                            <router-link to="/typeproduct" class="nav-link">Typeproduct</router-link>
+                            <router-link :to="{name:'listtypeproduct'}" class="nav-link">Typeproduct</router-link>
                         </li>
 
                         <li>
