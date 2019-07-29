@@ -10,7 +10,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr v-for="pro of product">
+                    <tr v-for="pro in product">
                         <td scope="row">{{ pro.id }}</td>
                         <td>{{ pro.name }}</td>
                         <td>{{ pro.content }}</td>
