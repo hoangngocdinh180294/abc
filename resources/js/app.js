@@ -8,8 +8,8 @@ import MainApp from './components/MainApp.vue';
 
 
 const router = new VueRouter({
-    routes,
-    // mode: 'history'
+    //mode: 'history',
+    routes
 });
 Vue.use(VueRouter);
 const app = new Vue({

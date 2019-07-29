@@ -52324,8 +52324,8 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 
 
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
-  routes: _router__WEBPACK_IMPORTED_MODULE_2__["routes"] // mode: 'history'
-
+  //mode: 'history',
+  routes: _router__WEBPACK_IMPORTED_MODULE_2__["routes"]
 });
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
