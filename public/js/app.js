@@ -1859,20 +1859,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -37320,7 +37306,7 @@ var render = function() {
           _c(
             "router-link",
             { staticClass: "navbar-brand", attrs: { to: { name: "home" } } },
-            [_vm._v("My Vue App")]
+            [_vm._v("Home")]
           ),
           _vm._v(" "),
           _vm._m(0),
@@ -37361,21 +37347,7 @@ var render = function() {
                     )
                   ],
                   1
-                ),
-                _vm._v(" "),
-                _c(
-                  "li",
-                  [
-                    _c(
-                      "router-link",
-                      { staticClass: "nav-link", attrs: { to: "/customers" } },
-                      [_vm._v("Customers")]
-                    )
-                  ],
-                  1
-                ),
-                _vm._v(" "),
-                _vm._m(1)
+                )
               ])
             ]
           )
@@ -37405,41 +37377,6 @@ var staticRenderFns = [
       },
       [_c("span", { staticClass: "navbar-toggler-icon" })]
     )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "nav-item dropdown" }, [
-      _c(
-        "a",
-        {
-          staticClass: "nav-link dropdown-toggle",
-          attrs: {
-            id: "navbarDropdown",
-            href: "#",
-            role: "button",
-            "data-toggle": "dropdown",
-            "aria-expanded": "false",
-            "aria-haspopup": "true"
-          }
-        },
-        [_c("span", { staticClass: "caret" })]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "dropdown-menu",
-          attrs: { "aria-labelledby": "navbarDropdown" }
-        },
-        [
-          _c("a", { staticClass: "dropdown-item", attrs: { href: "#" } }, [
-            _vm._v("Logout")
-          ])
-        ]
-      )
-    ])
   }
 ]
 render._withStripped = true
@@ -37474,9 +37411,11 @@ var staticRenderFns = [
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
           _c("div", { staticClass: "card card-default" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Đây là trang chủ")
-            ])
+            _c(
+              "div",
+              { staticClass: "card-header text-center btn btn-warning" },
+              [_vm._v("Đây là trang chủ")]
+            )
           ])
         ])
       ])
@@ -37509,7 +37448,7 @@ var render = function() {
     [
       _c("Header"),
       _vm._v(" "),
-      _c("div", { staticClass: "content" }, [_c("router-view")], 1)
+      _c("div", { staticClass: "container" }, [_c("router-view")], 1)
     ],
     1
   )
