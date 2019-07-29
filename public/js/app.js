@@ -37482,9 +37482,11 @@ var render = function() {
         _vm._v(" "),
         _c(
           "tbody",
-          _vm._l(_vm.product, function(pro) {
+          _vm._l(_vm.product, function(pro, index) {
             return _c("tr", [
-              _c("td", { attrs: { scope: "row" } }, [_vm._v(_vm._s(pro.id))]),
+              _c("td", { attrs: { scope: "row" } }, [
+                _vm._v(_vm._s(index + 1))
+              ]),
               _vm._v(" "),
               _c("td", [_vm._v(_vm._s(pro.name))]),
               _vm._v(" "),

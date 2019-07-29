@@ -10,8 +10,8 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr v-for="pro in product">
-                        <td scope="row">{{ pro.id }}</td>
+                    <tr v-for="(pro, index) in product">
+                        <td scope="row">{{ index + 1 }}</td>
                         <td>{{ pro.name }}</td>
                         <td>{{ pro.content }}</td>
                     </tr>
